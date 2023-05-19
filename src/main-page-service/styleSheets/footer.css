@@ -1,0 +1,87 @@
+footer{
+    background-color: #191e27;
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-container{
+    width: 60%;
+    height: 13rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+.mainName-footer{
+    font-size: 1.5rem;
+}
+.aboutUs-footer{
+
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: .5rem;
+}
+.email-footer{
+    color: #b4bdc9;
+    font-size: 1.1rem;
+
+}
+.telephone-numbers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: -1.1rem;
+    color: #b4bdc9;
+    gap: .5rem;
+}
+.telephone-numbers img{
+    width: 2rem;
+    height: 1.5rem;
+    flex-direction: column;
+}
+.telephone-numbers span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.navigation-footer-container{
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+}
+.clients-info{
+    color: #8f9197;
+    font-size: .8rem;
+    margin-top: 1.3rem;
+}
+.navigation-footer{
+    color: #b4bdc9;
+    gap: .5rem;
+}
+.paymentMethods{
+    color: #8f9197;
+    font-size: .8rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: -2.7rem;
+
+}
+.masterCard{
+    width: 4rem;
+}
+.visa{
+    width: 6rem;
+}
+.paymentImages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}

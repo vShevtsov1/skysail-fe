@@ -1,0 +1,61 @@
+header{
+    background-color: #191e27;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-container{
+
+    width: 80%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.mainName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-right: 3rem;
+}
+.navigation{
+    margin-left: 3rem;
+    display: flex;
+    color: #b4bdc9;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    font-family: serif;
+    font-size: 1.2rem;
+}
+.currencyAndLanguage{
+    margin-left: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.currency{
+    width: 3rem;
+    height: 2rem;
+    border-radius:4px;
+    background: #191e27;
+    appearance: inherit;
+    cursor: pointer;
+    color: #b4bdc9;
+    text-align: center;
+}
+.currency option{
+    background: white;
+    border-radius:4px;
+    color: black;
+}
+
+.loginText{
+    color: #b4bdc9;
+    margin-left: 2rem;
+}
