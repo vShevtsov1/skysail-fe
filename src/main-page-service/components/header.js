@@ -6,8 +6,8 @@ const Header = () => {
     return (
         <header>
             <div className='header-container'>
-                <div className='mainName'>
-                    <span style={{color: "#f54a7a"}}>Sky</span><span style={{color: "white"}}>Sail</span>
+                <div className='header-name'>
+                    <span >Sky</span>Sail
                 </div>
                 <div className='navigation'>
                     <p>Замовити квиток</p>

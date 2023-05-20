@@ -1,5 +1,5 @@
 import "../styleSheets/footer.css"
-import telephoneCountry from "../images/pngegg.png"
+import phoneCountry from "../images/pngegg.png"
 import masterCard from "../images/MasterCard_early_1990s_logo.png"
 import visa from "../images/Visa-Logo-PNG-Image.png"
 
@@ -10,15 +10,15 @@ const Footer = () => {
         <footer>
             <div className='footer-container'>
                 <div className='aboutUs-footer'>
-                    <div className='mainName-footer'>
-                        <span style={{color: "#f54a7a"}}>Sky</span><span style={{color: "white"}}>Sail</span>
+                    <div className='footer-name'>
+                        <span >Sky</span>Sail
                     </div>
                     <div className='email-footer'>
                         ✉skysail@gmail.com
                     </div>
-                    <div className='telephone-numbers'>
-                        <span><img src={telephoneCountry}/> +380 55 555 5555</span>
-                        <span><img src={telephoneCountry}/> +380 33 333 3333</span>
+                    <div className='phone-numbers'>
+                        <span><img src={phoneCountry}/> +380 55 555 5555</span>
+                        <span><img src={phoneCountry}/> +380 33 333 3333</span>
                     </div>
                 </div>
                 <div className='navigation-footer-container'>

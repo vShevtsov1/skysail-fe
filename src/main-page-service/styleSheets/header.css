@@ -15,13 +15,18 @@ header{
     justify-content: center;
 
 }
-.mainName{
+.header-name{
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.5rem;
     margin-right: 3rem;
+    color: white;
 }
+.header-name span{
+    color: #f54a7a;
+}
+
 .navigation{
     margin-left: 3rem;
     display: flex;

@@ -14,8 +14,12 @@ footer{
     justify-content: center;
     gap: 5rem;
 }
-.mainName-footer{
+.footer-name{
     font-size: 1.5rem;
+    color: white;
+}
+.footer-name span{
+    color: #f54a7a;
 }
 .aboutUs-footer{
 
@@ -29,7 +33,7 @@ footer{
     font-size: 1.1rem;
 
 }
-.telephone-numbers {
+.phone-numbers {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,12 +42,12 @@ footer{
     color: #b4bdc9;
     gap: .5rem;
 }
-.telephone-numbers img{
+.phone-numbers img{
     width: 2rem;
     height: 1.5rem;
     flex-direction: column;
 }
-.telephone-numbers span{
+.phone-numbers span{
     display: flex;
     justify-content: center;
     align-items: center;

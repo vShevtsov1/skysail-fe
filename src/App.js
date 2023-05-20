@@ -4,6 +4,8 @@ import MainPage from "./main-page-service/components/mainPage";
 import Header from "./main-page-service/components/header";
 import TicketsForm from "./main-page-service/components/ticketsForm";
 import Footer from "./main-page-service/components/footer";
+import AboutUs from "./main-page-service/components/aboutUs";
+import Newsletter from "./main-page-service/components/newsletter";
 
 
 
@@ -22,6 +24,8 @@ function App() {
               <Route path="/header" element={<Header/>}/>
               <Route path="/ticketsForm" element={<TicketsForm/>}/>
               <Route path="/footer" element={<Footer/>}/>
+              <Route path="/aboutUs" element={<AboutUs/>}/>
+              <Route path="/newsletter" element={<Newsletter/>}/>
             </Routes>
           </BrowserRouter>
 
