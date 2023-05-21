@@ -6,6 +6,7 @@ import TicketsForm from "./main-page-service/components/ticketsForm";
 import Footer from "./main-page-service/components/footer";
 import AboutUs from "./main-page-service/components/aboutUs";
 import Newsletter from "./main-page-service/components/newsletter";
+import AirportDropdown from "./main-page-service/components/AirportDropdown";
 
 
 
@@ -26,6 +27,7 @@ function App() {
               <Route path="/footer" element={<Footer/>}/>
               <Route path="/aboutUs" element={<AboutUs/>}/>
               <Route path="/newsletter" element={<Newsletter/>}/>
+              <Route path="/test" element={<AirportDropdown/>}/>
             </Routes>
           </BrowserRouter>
 

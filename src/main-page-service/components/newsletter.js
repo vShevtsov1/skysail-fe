@@ -1,11 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import '../styleSheets/newsletter.css';
+import firstImage from '../images/384852340.jpg'
+import secondImage from '../images/grazhdanskij-samolet-1920x1080.jpg'
+import thirdImage from '../images/Passenger_Airplanes_Evening_Sky_Flight_520132_1920x1080.jpg'
 
 const Newsletter = () => {
     const images = [
-        'https://klike.net/uploads/posts/2019-11/1572612050_1.jpg',
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuG-X_6MywzInty1-WAUTTis6pKU0pOA9kwNOnMolCpw&s',
-        'https://klike.net/uploads/posts/2019-11/1574605232_1.jpg',
+        firstImage,
+        secondImage,
+        thirdImage,
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -16,11 +19,7 @@ const Newsletter = () => {
         );
     };
 
-    const prevSlide = () => {
-        setCurrentIndex((prevIndex) =>
-            prevIndex === 0 ? images.length - 1 : prevIndex - 1
-        );
-    };
+
 
     useEffect(() => {
         const timer = setTimeout(() => {
@@ -42,16 +41,8 @@ const Newsletter = () => {
                     />
 
                 ))}
-                <div className='slider-arrows'>
-                    <button className="slider-arrow-left" onClick={prevSlide}>
-                        🠔
-                    </button>
-                    <button className="slider-arrow-right" onClick={nextSlide}>
-                        🠖
-                    </button>
-                </div>
             </div>
-            <div className='newsletter-form'>
+            <form    className='newsletter-form'>
                 <div className="newsletterForm-text">
                     <p>Отримуй корисні новини та гарячі спецпропозиції</p>
                 </div>
@@ -60,7 +51,7 @@ const Newsletter = () => {
                 <div className='personalInfo'>
                     <p>Натискаючи на цю кнопку, ви надаєте свою згоду на обробку і передачу персональних даних</p>
                 </div>
-            </div>
+            </form>
         </div>
     );
 };

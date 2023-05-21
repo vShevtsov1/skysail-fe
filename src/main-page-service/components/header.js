@@ -1,5 +1,6 @@
 import "../styleSheets/header.css"
-
+import {Link} from "react-router-dom";
+import { Link as ScrollLink } from 'react-scroll';
 
 const Header = () => {
 
@@ -7,20 +8,38 @@ const Header = () => {
         <header>
             <div className='header-container'>
                 <div className='header-name'>
-                    <span >Sky</span>Sail
+                    <Link to='/'><span >Sky</span>Sail</Link>
                 </div>
                 <div className='navigation'>
-                    <p>Замовити квиток</p>
-                    <p>Коллцентр</p>
-                    <p>Про нас</p>
-                </div>
-                <div className='currencyAndLanguage'>
-                    <select className="currency">
-                        <option value="1">₴ UAH</option>
-                        <option value="2">$ USD</option>
-                    </select>
+                    <ScrollLink
+                        to='ticketsForm-container'
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={1500}
+                        className='scrollLink'
+                    >Замовити квиток</ScrollLink>
+                    <ScrollLink
+                        to='newsletter-container'
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={1500}
+                        className='scrollLink'
+
+                    >Новини</ScrollLink>
+                    <ScrollLink
+                        to='aboutUs-container'
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={1500}
+                        className='scrollLink'
+
+                    >Про нас</ScrollLink>
 
                 </div>
+
                 <div className='loginText'>
                     <p> Увійти </p>
                 </div>

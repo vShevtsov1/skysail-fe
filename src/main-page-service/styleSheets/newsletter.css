@@ -8,36 +8,15 @@
     gap: 2rem;
 
 }
+
 img{
     width: 40rem;
     border-radius: 7px;
 
-}
-.slider-arrow-left{
-    position: absolute;
-    top: 83%;
-    right: 78.5%;
-    cursor: pointer;
-    border: none;
-    width: 2rem;
-    height: 1.5rem;
-    background: none;
-    color: white;
-    font-size: 2rem;
-}
-.slider-arrow-right{
-    position: absolute;
-    top: 83%;
-    right: 46.9%;
-    cursor: pointer;
-    border: none;
-    width: 2rem;
-    height: 1.5rem;
-    background: none;
-    color: white;
-    font-size: 2rem;
 
 }
+
+
 .newsletter-form{
     background: #3f4554;
     border-radius: 7px;

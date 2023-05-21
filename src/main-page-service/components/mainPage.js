@@ -3,6 +3,7 @@ import TicketsForm from "./ticketsForm";
 import Footer from "./footer";
 import AboutUs from "./aboutUs";
 import Newsletter from "./newsletter";
+import "../styleSheets/mainPage.css"
 
 const MainPage = () => {
 

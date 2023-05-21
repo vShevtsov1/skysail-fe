@@ -12,9 +12,121 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    width: 80%;
 
 }
 .ticketsForm-phrase{
     color: white;
     font-size: 2.5rem;
 }
+.selects-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: .2rem;
+    margin-top: 3rem;
+
+}
+.selects-container select{
+    width: auto;
+}
+.date-select{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: .3rem;
+    margin-left: -.1rem;
+
+}
+.date-picker {
+    width: 15rem;
+
+}
+
+.date-picker-wrapper {
+    width: 15rem;
+
+}
+.small-select{
+    height: 3.2rem;
+    border-radius: 5px;
+    width: 15rem;
+    text-align: center;
+    font-size: 1rem;
+
+}
+.numberOfPassengers{
+    margin-top: .2rem;
+    border-radius: 5px;
+    height: 3.1rem;
+    width: 15rem;
+    padding-left: 0;
+    margin-left: -.1rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: inner-spin-button !important;
+    width: 25px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+.search-button{
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #f54a7a;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin-top: 4rem;
+    min-height: 4rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: 20rem;
+
+
+}
+
+
+.search-button:hover,
+.search-button:focus {
+    background-color: #d73f69;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.search-button:hover {
+    transform: translateY(-1px);
+}
+
+.search-button:active {
+    background-color: #9b2745;
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+    transform: translateY(0);
+}
+
+
+
+
+
+

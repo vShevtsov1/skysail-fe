@@ -56,13 +56,19 @@ footer{
 .navigation-footer-container{
     display: flex;
     justify-content: center;
-
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.navigation-footer{
+    display: flex;
     flex-direction: column;
 }
 .clients-info{
     color: #8f9197;
     font-size: .8rem;
-    margin-top: 1.3rem;
+    margin-top: .3rem;
+    margin-bottom: .9rem;
+
 }
 .navigation-footer{
     color: #b4bdc9;
@@ -88,4 +94,8 @@ footer{
     align-items: center;
     gap: 1rem;
     margin-top: 1rem;
+}
+.email-footer a{
+    text-decoration: none;
+    color: #b4bdc9;
 }
