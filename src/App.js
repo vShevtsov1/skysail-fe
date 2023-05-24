@@ -7,6 +7,8 @@ import Footer from "./main-page-service/components/footer";
 import AboutUs from "./main-page-service/components/aboutUs";
 import Newsletter from "./main-page-service/components/newsletter";
 import TicketChoose from "./ticket-reservation-service/components/ticket-choose";
+import FlightReservation from "./flight-reservation-service/components/flight-reservation";
+import FlightReservationForm from "./flight-reservation-service/components/flight-reservation-form";
 
 
 
@@ -29,6 +31,8 @@ function App() {
               <Route path="/aboutUs" element={<AboutUs/>}/>
               <Route path="/newsletter" element={<Newsletter/>}/>
                 <Route path={"/choose"} element={<TicketChoose/>}/>
+                <Route path={"/flight"} element={<FlightReservation/>}/>
+                <Route path={"/ticketReservation"} element={<FlightReservationForm/>}/>
             </Routes>
           </BrowserRouter>
 

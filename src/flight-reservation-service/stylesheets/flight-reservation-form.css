@@ -1,0 +1,86 @@
+.ticket-reservation-form-container{
+    height: 100%;
+    width: 100%;
+    min-height: 10rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 0 8px rgba(128, 128, 128, 0.5);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.4s ease-in-out;
+    margin-top: 2rem;
+}
+.number-of-passenger{
+    width: auto;
+    font-size: 1.5rem;
+    color: #b4bdc9;
+    padding-top: 0.8rem;
+    padding-left: 1rem;
+}
+.passengersInfo{
+    width: auto;
+    height: 5rem;
+    padding-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    margin-left: 3rem;
+}
+.passengersInfo label{
+    margin-left: .1rem;
+}
+.appeal{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    color: #b4bdc9;
+    margin-right: -.4rem;
+}
+.passengerName{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    color: #b4bdc9;
+}
+.passengerLastName{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    color: #b4bdc9;
+}
+.passengerEmail{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    color: #b4bdc9;
+}
+.passengersPassport{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    color: #b4bdc9;
+}
+
+
+.passengersInfo input{
+    border-radius: 5px;
+    height: 1.8rem;
+    width: 13rem;
+}
+.passengersInfo select{
+    border-radius: 5px;
+    height: 2.1rem;
+    margin-top: .1rem;
+    text-align: center  ;
+}
+.passengerName{
+    width: 13rem;
+}
+.passengerLastName{
+    width: 13rem;
+}
+.passengerEmail{
+    width: 13rem;
+}
+.passengersPassport{
+    width: 13rem;
+}
