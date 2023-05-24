@@ -1,0 +1,16 @@
+.choose-container{
+    height: 100%;
+    width: 100%;
+    min-height: 50rem;
+    background-color: #191e27;
+}
+.tickets-container{
+    height: 100%;
+    width: 100%;
+    min-height: 50rem;
+    display: flex;
+    padding-top: 2rem;
+    justify-content: center;
+
+}
+
