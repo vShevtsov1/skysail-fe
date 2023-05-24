@@ -6,7 +6,7 @@
     border-radius: 4px;
     box-shadow: 0 0 8px rgba(128, 128, 128, 0.5);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     transition: transform 0.4s ease-in-out;
 }
 .logo-container {
@@ -39,4 +39,158 @@
 .ticket-container:hover {
     transform: scale(1.03);
     box-shadow: 0 0 10px rgba(128, 128, 128, 0.5);
+    cursor: pointer;
+}
+.ticket-info-container {
+    height: 100%;
+    width: 60%;
+    min-height: 8rem;
+    position: relative;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ticket-info-container::after {
+    content: "";
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    right: 0;
+    width: 1px;
+    background-image: linear-gradient(to bottom, transparent 50%, lightgray 50%);
+    background-size: 100% 10px;
+    background-repeat: repeat-y;
+}
+.flight-id-container{
+    height: 100%;
+    width: 100%;
+    min-height: 2rem;
+    color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.flight-info-container{
+    height: 100%;
+    width: 100%;
+    min-height: 4rem;
+    display: flex;
+    flex-direction: row;
+    margin-left: 1rem;
+}
+.flight-time-container{
+    height: 100%;
+    width: 100%;
+    min-height: 2rem;
+    color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.start-flight-container{
+    height: 100%;
+    width: 30%;
+    min-height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.end-flight-container{
+    height: 100%;
+    width: 30%;
+    min-height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.flight-container{
+    height: 100%;
+    width: 40%;
+    min-height: 4rem;
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+}
+.flight-time{
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+}
+.flight-city{
+    color: lightgray;
+}
+.flight-container hr{
+    border: none;
+    border-top: 3px solid #afaeae;
+}
+.flight-container img{
+    height: 1rem;
+    width: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.hr-block{
+    width: 40%;
+}
+.price-ticket-container{
+    height: 100%;
+    width: 30%;
+    min-height: 8rem;
+    display: flex;
+    flex-direction: column;
+}
+.empty-space-container{
+    height: 100%;
+    width: 100%;
+    min-height: 3rem;
+    max-height: 3rem;
+    color: #f54a7a;
+    display: flex;
+    align-items: end;
+    justify-content: right;
+    margin-left: -1rem;
+    font-weight: bold;
+}
+.price-container{
+    height: 100%;
+    width: 100%;
+    min-height: 5rem;
+    max-height: 5rem;
+    display: flex;
+    flex-direction: row;
+}
+.price{
+    height: 100%;
+    width: 40%;
+    min-height: 5rem;
+    max-height: 5rem;
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    font-weight: bold;
+}
+.order button{
+    width: 10rem;
+    margin: 0;
+}
+.order{
+    height: 100%;
+    width: 60%;
+    min-height: 5rem;
+    max-height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.order button{
+    min-height: 0rem;
+    max-height: 3.2rem;
+    width: 12rem;
 }
