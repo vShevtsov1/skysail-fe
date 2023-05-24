@@ -2,7 +2,7 @@
     height: 100%;
     width: 100%;
     min-height: 50rem;
-    background-color: #191e27;
+    background-color: #272a33;
 }
 .tickets-container{
     height: 100%;
@@ -10,7 +10,13 @@
     min-height: 50rem;
     display: flex;
     padding-top: 2rem;
-    justify-content: center;
 
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+.tickets-container:last-child{
+    padding-bottom: 2rem;
 }
 
